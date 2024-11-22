@@ -3,13 +3,13 @@
 	margin:20px;
 }
 
-p::before{
+container::before{
 	content:"Before Element";
 	font-size:20px;
-	color:red;
+	color:rgb(255, 0, 0);
 }
-p::after{
+container::after{
 	content:"After Element";
 	font-size:20px;
-	color:red;
+	color:rgb(255, 0, 0);
 }
